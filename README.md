@@ -1,9 +1,7 @@
 LiteDB.AspNet.Identity
 =======================
 
-This library was constructed based on the 
-## MongoDB.AspNet.Identity ## 
-from https://github.com/InspectorIT.
+This library was constructed based on the # MongoDB.AspNet.Identity # from https://github.com/InspectorIT.
 
 
 ASP.NET Identity provider that users LiteDB for storage
