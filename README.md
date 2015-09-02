@@ -1,4 +1,4 @@
-LiteDB.AspNet.Identity
+AspNet.Identity.LiteDB 
 =======================
 
 This library was constructed based on the [MongoDB.AspNet.Identity](https://github.com/InspectorIT/MongoDB.AspNet.Identity).
@@ -14,7 +14,7 @@ ASP.NET MVC 5 shipped with a new Identity system (in the Microsoft.AspNet.Identi
 Entity Framework provider (Microsoft.AspNet.Identity.EntityFramework).
 
 ## News ##
-__02-11-2014__ - [http://blogs.msdn.com/b/webdev/archive/2014/02/11/announcing-preview-of-microsoft-aspnet-identity-2-0-0-beta1.aspx](Microsoft has released Microsoft.AspNet.Identity v2 Beta 1). I will be addressing these issues and introducing them into the LiteDB.AspNet.Identity provider.
+__02-11-2014__ - [http://blogs.msdn.com/b/webdev/archive/2014/02/11/announcing-preview-of-microsoft-aspnet-identity-2-0-0-beta1.aspx](Microsoft has released Microsoft.AspNet.Identity v2 Beta 1). I will be addressing these issues and introducing them into the AspNet.Identity.LiteDB provider.
 
 ## Features ##
 * Drop-in replacement ASP.NET Identity with LiteDB as the backing store.
@@ -43,7 +43,7 @@ Install-Package LiteDB.AspNet.Identity
     
 3. In ~/Models/IdentityModels.cs:
     * Remove the namespace: Microsoft.AspNet.Identity.EntityFramework
-    * Add the namespace: LiteDB.AspNet.Identity
+    * Add the namespace: AspNet.Identity.LiteDB 
 	* Remove the ApplicationDbContext class completely.
 4. In ~/Controllers/AccountController.cs
     * Remove the namespace: Microsoft.AspNet.Identity.EntityFramework
